@@ -1,0 +1,42 @@
+/**
+ * The Ball v2 eV Variables Stylesheet.
+ *
+ * Implements default styling variables for all media on the "Spirit of Football eV" website.
+ *
+ * @package The_Ball_v2_eV
+ */
+
+:root {
+
+	/* Header, Footer, etc. */
+	--sof-purple: #2d5f66;
+
+	/* Background. */
+	--sof-purple-light: #305c23;
+
+	/* Main Menu Background. */
+	--sof-purple-menu: rgb(49 153 204 / 80%);
+
+	/* Events Submenu Background. */
+	--sof-purple-lighter: #3a7029;
+
+	/* Comments Area Background. */
+	--sof-background-comments: #438230;
+
+	/* Calendar Header Background. */
+	--sof-calendar-header: #277228;
+	/* Calendar Border. */
+	--sof-calendar-border: var(--sof-green-bright);
+
+	/* Team Area Backgrounds. */
+	/* Vorstand Area Background. */
+	--sof-background-people-vorstand: #3a7029;
+	/* Back Office Area Background. */
+	--sof-background-people-backoffice: #438230;
+	/* Project Managers Area Background. */
+	--sof-background-people-projektmanagerinnen: #4d9537;
+	/* Supporters Area Background. */
+	--sof-background-people-supporters: #357179;
+	--sof-background-people-supporters: #3d818a;
+
+}
