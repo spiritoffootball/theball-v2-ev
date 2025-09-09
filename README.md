@@ -14,7 +14,7 @@ There are two ways to install from GitHub:
 
 If you have downloaded this theme as a ZIP file from the GitHub repository, do the following to install it:
 
-1. Unzip the .zip file and, if needed, rename the enclosing folder so that the theme's files are located directly inside `/wp-content/themes/theball-v2-ev`
+1. Unzip the .zip file and, if needed, rename the enclosing folder so that the theme's files are located directly inside `/wp-content/themes/'theball-v2-ev'`
 2. Activate the theme
 3. You're done.
 

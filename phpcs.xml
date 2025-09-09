@@ -23,15 +23,27 @@
 		<!-- PSR4: Allow unconventional class names. -->
 		<exclude name="PEAR.NamingConventions.ValidClassName.Invalid" />
 
+		<!-- PSR4: Allow unconventional file names. -->
+		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
+
 		<!-- Allow example code blocks. -->
 		<exclude name="Squiz.PHP.CommentedOutCode.Found" />
 		<exclude name="Squiz.Commenting.BlockComment.HasEmptyLineBefore" />
+
+		<!-- Allow commenting-out of code blocks. -->
+		<exclude name="Squiz.PHP.EmbeddedPhp.ContentAfterOpen" />
+		<exclude name="Squiz.Commenting.BlockComment.NoNewLine" />
+		<exclude name="Squiz.PHP.EmbeddedPhp.ContentBeforeEnd" />
+
+		<!-- Allow assignment in conditions for now. -->
+		<exclude name="WordPress.CodeAnalysis.AssignmentInCondition.Found" />
+		<exclude name="Squiz.PHP.DisallowMultipleAssignments.FoundInControlStructure" />
 
 	</rule>
 
 	<rule ref="WordPress.WP.I18n">
 		<properties>
-			<property name="text_domain" type="array" value="the-ball-v2-ev" />
+			<property name="text_domain" type="array" value="theball-v2-ev" />
 		</properties>
 	</rule>
 

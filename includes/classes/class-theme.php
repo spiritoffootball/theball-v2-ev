@@ -118,7 +118,7 @@ class The_Ball_v2_eV_Theme {
 		 * Translations can be added to the /languages/ directory of the child theme.
 		 */
 		load_child_theme_textdomain(
-			'the-ball-v2-ev',
+			'theball-v2-ev',
 			get_stylesheet_directory() . '/languages'
 		);
 
