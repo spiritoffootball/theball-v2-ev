@@ -41,15 +41,15 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: var(--sof-background-people-vorstand);
 }
 
-#individuals-backoffice {
-	background-color: var(--sof-background-people-backoffice);
+#individuals-staff {
+	background-color: var(--sof-background-people-staff);
 }
 
-#individuals-projektmanagerinnen {
-	background-color: var(--sof-background-people-projektmanagerinnen);
+#individuals-team {
+	background-color: var(--sof-background-people-team);
 }
 
-#individuals-supporters {
+#individuals-alumni {
 	background-color: var(--sof-background-people-supporters);
 }
 
@@ -67,12 +67,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #organisations-partners-germany {
-	background-color: var(--sof-background-people-backoffice);
+	background-color: var(--sof-background-people-staff);
 /* 	background-color: #43939d; */
 }
 
 #organisations-partners-world {
-	background-color: var(--sof-background-people-projektmanagerinnen);
+	background-color: var(--sof-background-people-team);
 }
 
 

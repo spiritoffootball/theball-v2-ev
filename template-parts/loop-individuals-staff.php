@@ -1,6 +1,6 @@
 <?php
 /**
- * Template part for embedding a display of Individuals in The Supporters.
+ * Template part for embedding a display of Individuals in The Squad.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -22,7 +22,7 @@ $loop_include_args = [
 		[
 			'taxonomy' => 'individual-type',
 			'field'    => 'slug',
-			'terms'    => 'die-supporter',
+			'terms'    => 'staff',
 		],
 	],
 ];
@@ -32,12 +32,12 @@ $loop_include = new WP_Query( $loop_include_args );
 
 if ( $loop_include->have_posts() ) : ?>
 
-	<!-- loop-individuals-supporters.php -->
-	<section id="individuals-supporters" class="loop-include loop-include-five content-area clear">
+	<!-- loop-individuals-staff.php -->
+	<section id="individuals-staff" class="loop-include loop-include-four content-area clear">
 		<div class="loop-include-inner">
 
 			<header class="loop-include-header">
-				<h2 class="loop-include-title"><?php esc_html_e( 'Supporters', 'theball-v2-ev' ); ?></h2>
+				<h2 class="loop-include-title"><?php esc_html_e( 'Staff', 'theball-v2-ev' ); ?></h2>
 			</header><!-- .loop-include-header -->
 
 			<div class="loop-include-posts">
@@ -70,4 +70,3 @@ endif;
 // Prevent weirdness.
 wp_reset_postdata();
 unset( $loop_include_args, $loop_include );
-

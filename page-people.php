@@ -36,18 +36,18 @@ get_header();
 		<?php load_template( $vorstand_loop ); ?>
 	<?php endif; ?>
 
-	<?php $backoffice_loop = locate_template( 'template-parts/loop-individuals-backoffice.php' ); ?>
-	<?php if ( $backoffice_loop ) : ?>
-		<?php load_template( $backoffice_loop ); ?>
+	<?php $staff_loop = locate_template( 'template-parts/loop-individuals-staff.php' ); ?>
+	<?php if ( $staff_loop ) : ?>
+		<?php load_template( $staff_loop ); ?>
 	<?php endif; ?>
 
-	<?php $projektmanagerinnen_loop = locate_template( 'template-parts/loop-individuals-projektmanagerinnen.php' ); ?>
-	<?php if ( $projektmanagerinnen_loop ) : ?>
-		<?php load_template( $projektmanagerinnen_loop ); ?>
+	<?php $team_loop = locate_template( 'template-parts/loop-individuals-team.php' ); ?>
+	<?php if ( $team_loop ) : ?>
+		<?php load_template( $team_loop ); ?>
 	<?php endif; ?>
 
-	<?php if ( $supporters_loop = locate_template( 'template-parts/loop-individuals-supporters.php' ) ) : ?>
-		<?php load_template( $supporters_loop ); ?>
+	<?php if ( $alumni_loop = locate_template( 'template-parts/loop-individuals-alumni.php' ) ) : ?>
+		<?php load_template( $alumni_loop ); ?>
 	<?php endif; ?>
 
 	</main><!-- #main -->

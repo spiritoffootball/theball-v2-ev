@@ -1,6 +1,6 @@
 <?php
 /**
- * Template part for embedding a display of Individuals in The Squad.
+ * Template part for embedding a display of Individuals who are Project Managers.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -22,7 +22,7 @@ $loop_include_args = [
 		[
 			'taxonomy' => 'individual-type',
 			'field'    => 'slug',
-			'terms'    => 'backoffice',
+			'terms'    => 'team',
 		],
 	],
 ];
@@ -32,12 +32,12 @@ $loop_include = new WP_Query( $loop_include_args );
 
 if ( $loop_include->have_posts() ) : ?>
 
-	<!-- loop-individuals-backoffice.php -->
-	<section id="individuals-backoffice" class="loop-include loop-include-four content-area clear">
+	<!-- loop-individuals-team.php -->
+	<section id="individuals-team" class="loop-include loop-include-four content-area clear">
 		<div class="loop-include-inner">
 
 			<header class="loop-include-header">
-				<h2 class="loop-include-title"><?php esc_html_e( 'Backroom Staff', 'theball-v2-ev' ); ?></h2>
+				<h2 class="loop-include-title"><?php esc_html_e( 'Team', 'theball-v2-ev' ); ?></h2>
 			</header><!-- .loop-include-header -->
 
 			<div class="loop-include-posts">
@@ -70,3 +70,4 @@ endif;
 // Prevent weirdness.
 wp_reset_postdata();
 unset( $loop_include_args, $loop_include );
+

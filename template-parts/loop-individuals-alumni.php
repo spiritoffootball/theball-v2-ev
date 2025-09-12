@@ -1,6 +1,6 @@
 <?php
 /**
- * Template part for embedding a display of Individuals who are Project Managers.
+ * Template part for embedding a display of Individuals in The Supporters.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -22,7 +22,7 @@ $loop_include_args = [
 		[
 			'taxonomy' => 'individual-type',
 			'field'    => 'slug',
-			'terms'    => 'projektmanagerinnen',
+			'terms'    => 'alumni',
 		],
 	],
 ];
@@ -32,12 +32,12 @@ $loop_include = new WP_Query( $loop_include_args );
 
 if ( $loop_include->have_posts() ) : ?>
 
-	<!-- loop-individuals-projektmanagerinnen.php -->
-	<section id="individuals-projektmanagerinnen" class="loop-include loop-include-four content-area clear">
+	<!-- loop-individuals-alumni.php -->
+	<section id="individuals-alumni" class="loop-include loop-include-five content-area clear">
 		<div class="loop-include-inner">
 
 			<header class="loop-include-header">
-				<h2 class="loop-include-title"><?php esc_html_e( 'Project Managers', 'theball-v2-ev' ); ?></h2>
+				<h2 class="loop-include-title"><?php esc_html_e( 'Alumni', 'theball-v2-ev' ); ?></h2>
 			</header><!-- .loop-include-header -->
 
 			<div class="loop-include-posts">

@@ -23,7 +23,7 @@ $loop_include_args = [
 		[
 			'taxonomy' => 'organisation-type',
 			'field'    => 'slug',
-			'terms'    => 'unterstuetzer',
+			'terms'    => 'foerderpartner',
 		],
 		[
 			'taxonomy' => 'organisation-tag',
