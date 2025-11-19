@@ -2,7 +2,7 @@
 /**
  * Template Name: Partners Archive
  *
- * The template for displaying the Partners archive page.
+ * The template for displaying the Kooperationspartner archive page.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *

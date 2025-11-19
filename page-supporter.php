@@ -2,7 +2,7 @@
 /**
  * Template Name: Supporters Archive
  *
- * The template for displaying the Supporters archive page.
+ * The template for displaying the Förderpartner archive page.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
