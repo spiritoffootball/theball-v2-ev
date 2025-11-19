@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2025-09-07T13:55:13+00:00\n"
-"PO-Revision-Date: 2025-09-07 14:15+0000\n"
+"PO-Revision-Date: 2025-11-19 15:41+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: theball-v2-ev\n"
 "Language: de_DE\n"
@@ -23,13 +23,13 @@ msgid "A child theme of The Ball v2 for the Spirit of Football eV website."
 msgstr ""
 "Ein Unterthema von „The Ball v2“ für die Website von Spirit of Football e.V."
 
-#: template-parts/loop-footer-awards.php:57
+#: template-parts/loop-individuals-alumni.php:40
+msgid "Alumni"
+msgstr "Alumni"
+
+#: template-parts/loop-footer-awards.php:58
 msgid "Awards"
 msgstr "Auszeichnungen"
-
-#: template-parts/loop-individuals-backoffice.php:40
-msgid "Backroom Staff"
-msgstr "Das Backoffice"
 
 #. Author of the theme
 #: style.css
@@ -66,10 +66,6 @@ msgstr "Vergangene Termine"
 msgid "People"
 msgstr "Leute"
 
-#: template-parts/loop-individuals-projektmanagerinnen.php:40
-msgid "Project Managers"
-msgstr "Die Projektmanager*Innen"
-
 #: footer.php:81
 msgid "Spirit of Football Brazil"
 msgstr "Spirit of Football Brasilien"
@@ -82,9 +78,9 @@ msgstr "Spirit of Football"
 msgid "Spirit of Football Germany"
 msgstr "Spirit of Football Deutschland"
 
-#: template-parts/loop-individuals-supporters.php:40
-msgid "Supporters"
-msgstr "Unterstützer"
+#: template-parts/loop-individuals-staff.php:40
+msgid "Staff"
+msgstr "Mitarbeiter*in"
 
 #. Template Name of the theme
 msgid "Supporters Archive"
@@ -97,6 +93,10 @@ msgstr "Förderpartner in Erfurt"
 #: template-parts/loop-supporters-germany.php:46
 msgid "Supporters in Germany"
 msgstr "Förderpartner in Deutschland"
+
+#: template-parts/loop-individuals-team.php:40
+msgid "Team"
+msgstr "Team"
 
 #. Theme Name of the theme
 #: style.css
