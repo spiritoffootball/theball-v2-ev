@@ -55,7 +55,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .individual .entry-title {
 	text-transform: none;
+	margin-bottom: 0;
 }
+
+.individual .individual-job-title {
+	text-transform: none;
+	font-size: 1rem;
+	word-break: break-word;
+}
+
 
 
 /*--------------------------------------------------------------
