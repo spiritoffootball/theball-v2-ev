@@ -73,3 +73,67 @@ function the_ball_v2_ev_styles() {
 }
 
 add_action( 'wp_enqueue_scripts', 'the_ball_v2_ev_styles', 60 );
+
+/**
+ * Gets the currently displayed locale.
+ *
+ * @since 1.0.0
+ *
+ * @return string $locale The currently displayed locale.
+ */
+function the_ball_v2_ev_current_locale() {
+
+	// Default to WordPress locale.
+	if ( ! function_exists( 'pll_current_language' ) ) {
+		return get_locale();
+	}
+
+	// Query Polylang.
+	$locale = pll_current_language( 'locale' );
+
+	// --<
+	return $locale;
+
+}
+
+/**
+ * Gets the currently displayed language.
+ *
+ * @since 1.0.0
+ *
+ * @return string $language The currently displayed language.
+ */
+function the_ball_v2_ev_current_language() {
+
+	// Default to WordPress locale.
+	if ( ! function_exists( 'pll_current_language' ) ) {
+		return substr( get_locale(), 0, 2 );
+	}
+
+	// Query Polylang.
+	$language = pll_current_language( 'slug' );
+
+	// --<
+	return $language;
+
+}
+
+/**
+ * Gets the ACF Field suffix for the currently displayed language.
+ *
+ * @since 1.0.0
+ *
+ * @return string $suffix The ACF Field suffix for the currently displayed language.
+ */
+function the_ball_v2_ev_acf_language_suffix() {
+
+	// We need the language.
+	$language = the_ball_v2_ev_current_language();
+
+	// Define ACF Field suffix.
+	$suffix = '_' . $language;
+
+	// --<
+	return $suffix;
+
+}
