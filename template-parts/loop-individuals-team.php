@@ -38,6 +38,18 @@ if ( $loop_include->have_posts() ) : ?>
 
 			<header class="loop-include-header">
 				<h2 class="loop-include-title"><?php esc_html_e( 'Team', 'theball-v2-ev' ); ?></h2>
+
+				<?php
+				// If the category has a description display it.
+				$term = get_term_by( 'slug', 'team', 'individual-type' );
+				if ( ! empty( $term ) ) {
+					$category_description = category_description( $term->term_id );
+					if ( ! empty( $category_description ) ) {
+						// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+						echo apply_filters( 'category_archive_meta', '<div class="category-archive-meta">' . $category_description . '</div>' );
+					}
+				}
+				?>
 			</header><!-- .loop-include-header -->
 
 			<div class="loop-include-posts">
