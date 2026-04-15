@@ -39,4 +39,27 @@
 	--sof-background-people-supporters: #357179;
 	--sof-background-people-supporters: #3d818a;
 
+	/* CiviCRM. */
+
+	/* CiviCRM General. */
+	--sof-crm-text-color: #fff;
+	--sof-crm-expand-border: 1px solid #c9d5d7;
+	--sof-crm-header-dark-bg-color: #1d3715;
+
+	/* CiviCRM Messages & Alerts. */
+	--sof-crm-messages-bg-color: var(--sof-crm-header-dark-bg-color);
+	--sof-crm-messages-border: none;
+
+	/* CiviCRM Forms. */
+	--sof-crm-form-fieldset-bg-color: #396e2b;
+	--sof-crm-form-fieldset-border: 1px solid #fff;
+	--sof-crm-form-fieldset-border: none;
+	--sof-crm-form-fieldset-padding: 1rem;
+	--sof-crm-form-label-color: #fff;
+	--sof-crm-form-text-color: #fff;
+	--sof-crm-form-button-color: var(--crm-c-primary-text);
+	--sof-crm-form-select2-color: #000;
+	--sof-crm-form-required-color: #000;
+	--sof-crm-form-required-focus-color: #111;
+
 }
