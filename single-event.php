@@ -38,7 +38,7 @@ get_header();
 	<?php load_template( $sdgs_loop ); ?>
 <?php endif; ?>
 
-<?php if ( $event_loop = locate_template( 'template-parts/loop-events-ongoing.php' ) ) : ?>
+<?php if ( $event_loop = locate_template( 'template-parts/loop-events-up-next.php' ) ) : ?>
 	<?php load_template( $event_loop ); ?>
 <?php endif; ?>
 
